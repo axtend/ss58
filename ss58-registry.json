@@ -30,7 +30,7 @@
     },
     {
       "prefix": 2,
-      "network": "axctest",
+      "network": "axiatest",
       "displayName": "AxiaTest Relay Chain",
       "symbols": ["KSM"],
       "decimals": [12],
