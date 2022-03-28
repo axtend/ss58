@@ -1,20 +1,20 @@
 # SS58 Registry
 
-[![GitHub license](https://img.shields.io/badge/license-Apache2-green)](#LICENSE) [![GitLab Status](https://gitlab.axiacoin.network/axia/ss58-registry/badges/master/pipeline.svg)](https://gitlab.axiacoin.network/axia/ss58-registry/pipelines)
+[![GitHub license](https://img.shields.io/badge/license-Apache2-green)](#LICENSE) [![GitLab Status](https://gitlab.parity.io/parity/ss58-registry/badges/main/pipeline.svg)](https://gitlab.parity.io/parity/ss58-registry/pipelines)
 
-A list of known [SS58](https://github.com/axia-tech/axlib/wiki/External-Address-Format-(SS58)) account types as an enum.
+A list of known [SS58](https://docs.axlib.io/v3/advanced/ss58/) account types as an enum.
 
 This is driven from the [json data file](ss58-registry.json) which contains entries like this:
 
 ```js
 {
 	"prefix": 5,                      // unique u16
-	"network": "plasm",               // unique no spaces
-	"displayName": "Plasm Network",   //
-	"symbols": ["PLM"],               // symbol for each ballance pallet (usually one)
-	"decimals": [15],                 // decimals for each symbol listed.
+	"network": "astar",               // unique no spaces
+	"displayName": "Astar Network",   //
+	"symbols": ["ASTR"],               // symbol for each ballance pallet (usually one)
+	"decimals": [18],                 // decimals for each symbol listed.
 	"standardAccount": "*25519",      // Sr25519, Ed25519 or secp256k1
-	"website": "https://plasmnet.io"  // website or github of network
+	"website": "https://astar.network"  // website or github of network
 },
 ```
 
@@ -33,7 +33,7 @@ cargo install cargo-bump && cargo bump minor
 4. git stage, commit, push and then raise a pull request
 
 5. Once the PR has landed, one of the admins can
-[create a new release](https://github.com/axia-tech/ss58-registry/releases/new).
+[create a new release](https://github.com/paritytech/ss58-registry/releases/new).
 This will release the new version to [crates.io](https://crates.io/crates/ss58-registry)
 
 ## Licensing:
