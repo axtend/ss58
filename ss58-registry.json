@@ -12,7 +12,7 @@
   "registry": [
     {
       "prefix": 0,
-      "network": "Axia",
+      "network": "axia",
       "displayName": "Axia Relay Chain",
       "symbols": ["AXC"],
       "decimals": [10],
