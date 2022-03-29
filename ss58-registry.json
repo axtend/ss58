@@ -687,12 +687,12 @@
     },
     {
       "prefix": 1284,
-      "network": "moonbeam",
-      "displayName": "Moonbeam",
+      "network": "axtend",
+      "displayName": "Axtend",
       "symbols": ["GLMR"],
       "decimals": [18],
       "standardAccount": "secp256k1",
-      "website": "https://moonbeam.network"
+      "website": "https://axtend.network"
     },
     {
       "prefix": 1285,
