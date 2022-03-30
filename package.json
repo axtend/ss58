@@ -3,9 +3,9 @@
   "version": "1.2.0",
   "license": "Apache-2",
   "description": "Registry for SS58 account types",
-  "author": "Parity Technologies <admin@parity.io>",
+  "author": "Axia Technologies <admin@axia.io>",
   "main": "ss58-registry.json",
-  "repository": "https://github.com/paritytech/ss58-registry",
+  "repository": "https://github.com/axiatech/ss58-registry",
   "scripts": {
     "alignVersion": "./scripts/js/align_version.mjs && npm install",
     "build": "rm -rf npm_dist && mkdir -p npm_dist && ./scripts/js/build_js.mjs"

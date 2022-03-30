@@ -1,8 +1,8 @@
 # SS58 Registry
 
-[![GitHub license](https://img.shields.io/badge/license-Apache2-green)](#LICENSE) [![GitLab Status](https://gitlab.parity.io/parity/ss58-registry/badges/main/pipeline.svg)](https://gitlab.parity.io/parity/ss58-registry/pipelines)
+[![GitHub license](https://img.shields.io/badge/license-Apache2-green)](#LICENSE) [![GitLab Status](https://gitlab.axia.io/axia/ss58-registry/badges/main/pipeline.svg)](https://gitlab.axia.io/axia/ss58-registry/pipelines)
 
-A list of known [SS58](https://docs.axlib.io/v3/advanced/ss58/) account types as an enum.
+A list of known [SS58](https://docs.substrate.io/v3/advanced/ss58/) account types as an enum.
 
 This is driven from the [json data file](ss58-registry.json) which contains entries like this:
 
@@ -18,7 +18,7 @@ This is driven from the [json data file](ss58-registry.json) which contains entr
 },
 ```
 
-(Typically used by the Axia, AxiaTest or Axlib ecosystems.)
+(Typically used by the Axia, AxiaTest or Substrate ecosystems.)
 
 ## Process:
 
@@ -33,7 +33,7 @@ cargo install cargo-bump && cargo bump minor
 4. git stage, commit, push and then raise a pull request
 
 5. Once the PR has landed, one of the admins can
-[create a new release](https://github.com/paritytech/ss58-registry/releases/new).
+[create a new release](https://github.com/axiatech/ss58-registry/releases/new).
 This will release the new version to [crates.io](https://crates.io/crates/ss58-registry)
 
 ## Licensing:

@@ -1,11 +1,11 @@
 [package]
 name = "ss58-registry"
-authors = ["Parity Technologies <admin@parity.io>"]
+authors = ["Axia Technologies <admin@axia.io>"]
 version = "1.11.0"
 edition = "2021"
 description = "Registry of known SS58 address types"
 license = "Apache-2.0"
-repository = "https://github.com/paritytech/ss58-registry/"
+repository = "https://github.com/axiatech/ss58-registry/"
 
 [features]
 default = ["std"]
